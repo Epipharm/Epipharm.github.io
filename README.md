@@ -11,14 +11,14 @@ Edit files on the `main` branch (directly on GitHub: open the file → pencil ic
 Every commit triggers the **Deploy site** action, which rebuilds the site into the `gh-pages` branch
 (do not edit `gh-pages` by hand). The new version is live a few minutes later.
 
-| To change…                      | Edit…                                                                                   |
-| ------------------------------- | --------------------------------------------------------------------------------------- |
-| Home-page text, address         | `_pages/about.md`                                                                       |
-| Profile photo                   | replace `assets/img/prof_pic.jpg`                                                       |
+| To change…                      | Edit…                                                                                    |
+| ------------------------------- | ---------------------------------------------------------------------------------------- |
+| Home-page text, address         | `_pages/about.md`                                                                        |
+| Profile photo                   | replace `assets/img/prof_pic.jpg`                                                        |
 | Publications                    | `_bibliography/papers.bib` (one BibTeX entry per paper; `selected = {true}` → home page) |
-| Lab members                     | `_pages/people.md`                                                                      |
-| Contact icons (Scholar, ORCID…) | `_data/socials.yml`                                                                     |
-| Site title, name, colors, flags | `_config.yml`                                                                           |
+| Lab members                     | `_pages/people.md`                                                                       |
+| Contact icons (Scholar, ORCID…) | `_data/socials.yml`                                                                      |
+| Site title, name, colors, flags | `_config.yml`                                                                            |
 
 Notes
 
