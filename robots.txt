@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Epipharm.github.io/sitemap.xml
+Sitemap: https://epipharm.github.io/sitemap.xml
