@@ -16,8 +16,7 @@ Every commit triggers the **Deploy site** action, which rebuilds the site into t
 | Home-page text, address         | `_pages/about.md`                                                                       |
 | Profile photo                   | replace `assets/img/prof_pic.jpg`                                                       |
 | Publications                    | `_bibliography/papers.bib` (one BibTeX entry per paper; `selected = {true}` → home page) |
-| Publication thumbnails          | images in `assets/img/publication_preview/` (file name = the entry's `preview` field)    |
-| Accent colour (Ewha Green)      | `$purple-color` in `_sass/_variables.scss`                                              |
+| Accent colour (Ewha Green)      | `--global-theme-color` / `--global-hover-color` in `_sass/_themes.scss`                 |
 | Lab members                     | `_pages/people.md`                                                                      |
 | Contact icons (Scholar, ORCID…) | `_data/socials.yml`                                                                     |
 | Site title, name, colors, flags | `_config.yml`                                                                           |
@@ -31,6 +30,6 @@ Notes
   `exclude:` list in `_config.yml` rather than deleted, so the template can be updated later.
 - Local copies of theme files (each with one small change, see the comment inside): `_layouts/about.liquid`
   (home-page heading from `heading:` in `_pages/about.md`), `_layouts/bib.liquid` (annotation shown inline),
-  `_sass/_variables.scss` (accent colour).
+  `_sass/_themes.scss` (accent colour; `_sass/_variables.scss` only tints code blocks).
 
 Full documentation of the starter: <https://github.com/alshedivat/al-folio/blob/main/docs/CUSTOMIZE.md>
